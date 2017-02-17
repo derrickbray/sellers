@@ -17,6 +17,14 @@ Router.map(function() {
       this.route('current');
       this.route('old');
     });
+    this.route('estate', function() {
+      this.route('current');
+      this.route('old');
+    });
+    this.route('real-estate', function() {
+      this.route('current');
+      this.route('old');
+    });
   });
 });
 
