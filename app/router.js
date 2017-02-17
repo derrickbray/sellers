@@ -7,6 +7,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('admin');
+  this.route('auction', function() {
+    this.route('weekly', function() {
+      this.route('current');
+      this.route('old');
+    });
+  });
 });
 
 export default Router;
