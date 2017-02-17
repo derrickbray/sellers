@@ -8,10 +8,12 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('admin', function() {
-    this.route('weekly');
-    this.route('special');
-    this.route('estate');
-    this.route('real-estate');
+    this.route('landing', function() {
+      this.route('weekly');
+      this.route('special');
+      this.route('estate');
+      this.route('real-estate');
+    });
   });
   this.route('auction', function() {
     this.route('weekly', function() {
