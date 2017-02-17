@@ -13,6 +13,10 @@ Router.map(function() {
       this.route('current');
       this.route('old');
     });
+    this.route('special', function() {
+      this.route('current');
+      this.route('old');
+    });
   });
 });
 
