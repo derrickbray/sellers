@@ -1,0 +1,17 @@
+.nav {
+  background: $c-background;
+  color: $c-text;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {}
+    &-linkbox {
+      display: flex;
+    }
+    &-link {
+      margin-left: 0.5rem;
+    }
+  }
+}
