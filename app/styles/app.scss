@@ -5,26 +5,4 @@ $c-accent: #7E8F7C;
 
 
 @import 'reset';
-
-.top {
-  background: $c-primary;
-  color: $c-text;
-  &__content {
-    display: flex;
-    justify-content: space-between;
-
-    &-phone {
-      display: flex;
-    }
-    &-linkbox {}
-    &-link {}
-  }
-}
-
-.number {
-  margin-left: 0.5rem;
-}
-
-.icon {
-  margin: 1rem 0;
-}
+@import 'top';
