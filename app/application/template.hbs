@@ -3,11 +3,17 @@
     <div class="nav__content">
       <h1 class="nav__content-title">{{#link-to "index"}}Sellers Auction Service{{/link-to}}</h1>
       <div class="nav__content-linkbox">
-        <div class="nav__content-link">{{#link-to "auction"}}Auctions{{/link-to}}</div>
-        <div class="nav__content-link">{{#link-to "contact"}}Contact{{/link-to}}</div>
+        <div class="nav__content-link">
+          {{#link-to "auction"}}Auctions{{/link-to}}
+        </div>
+        <div class="nav__content-link">
+          {{#link-to "contact"}}Contact{{/link-to}}
+        </div>
         <div class="nav__content-link"></div>
       </div>
     </div>
   </div>
 </div>
-{{outlet}}
+<div class="container">
+  {{outlet}}
+</div>
