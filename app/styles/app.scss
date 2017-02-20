@@ -8,17 +8,29 @@ $c-accent: #7E8F7C;
 @import 'top';
 @import 'nav';
 
+.accent {
+  display: inline;
+  color: $c-accent;
+}
+
 .hero {
-  height: 80vh;
+  height: 75vh;
   background: url('../hand-tools.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
+  filter: brightness(90%);
 
   &__content {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     height: 80vh;
     color: $c-background;
+    text-align: center;
+
+    &-tag {
+      font-size: 3rem;
+    }
   }
 }
