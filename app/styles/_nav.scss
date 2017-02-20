@@ -10,9 +10,14 @@
     &-title {}
     &-linkbox {
       display: flex;
+
     }
     &-link {
       margin-left: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
