@@ -34,3 +34,32 @@ $c-accent: #7E8F7C;
     }
   }
 }
+
+.index__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  color: $c-primary;
+  text-align: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+
+  &__link {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: $c-primary 2px solid;
+    border-radius: 0.4rem;
+    background: $c-background;
+    color: $c-primary;
+
+    &:hover {
+      background: $c-accent;
+      border: transparent 2px solid;
+      color: $c-background;
+    }
+  }
+}
