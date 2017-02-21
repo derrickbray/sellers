@@ -20,7 +20,7 @@ $c-accent: #7E8F7C;
   &__content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     color: $c-background;
 
     &-title {
@@ -28,8 +28,10 @@ $c-accent: #7E8F7C;
     }
 
     &-item {
-
       text-align: right;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
