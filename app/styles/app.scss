@@ -8,25 +8,4 @@ $c-accent: #7E8F7C;
 @import 'top';
 @import 'nav';
 @import 'index';
-
-.auction__hero {
-  height: 55vh;
-  background: url('../record-shop.jpg');
-  background-size: cover;
-  background-position: top;
-  filter: brightness(90%);
-
-  &-box {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 55vh;
-  }
-
-  &-content {
-    color: $c-background;
-  }
-}
-
-.content__title {}
-.content__item {}
+@import 'auction-template';

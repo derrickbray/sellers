@@ -1,0 +1,15 @@
+.auction__hero {
+  &-box {}
+
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    color: $c-primary;
+  }
+}
+
+.content__item {
+  &:hover {
+    text-decoration: underline;
+  }
+}
