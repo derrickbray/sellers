@@ -13,12 +13,34 @@ $c-accent: #7E8F7C;
 
 .card {
   margin: 5rem auto;
+  padding: 0.5rem;
   width: 50%;
-  border: 1px solid $c-text;
-  background: white;
+  background: $c-primary;
 
   &__title {
     text-align: center;
+    color: $c-text;
   }
 
+  &__input {
+    padding: 0.3rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: white;
+    font-size: 1rem;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+
+    &-btn {
+      padding: 0.5rem;
+      border: 0;
+      outline: none;
+      background: $c-accent;
+      font-size: 1rem;
+      color: $c-text;
+    }
+  }
 }
