@@ -1,0 +1,25 @@
+.contact {
+  height: 80vh;
+  padding: 1rem;
+  background: url('../mic.jpg');
+  background-size: cover;
+  background-position: top;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-end;
+    color: $c-background;
+
+    &-title {
+      text-align: center;
+    }
+
+    &-item {
+      text-align: right;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

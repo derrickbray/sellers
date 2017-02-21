@@ -9,29 +9,12 @@ $c-accent: #7E8F7C;
 @import 'nav';
 @import 'index';
 @import 'auction-template';
+@import 'contact';
 
-.contact {
-  height: 80vh;
-  padding: 1rem;
-  background: url('../mic.jpg');
-  background-size: cover;
-  background-position: top;
+.index__about {
 
-  &__content {
-    display: flex;
-    flex-direction: column;
-    // justify-content: flex-end;
-    color: $c-background;
-
-    &-title {
-      text-align: center;
-    }
-
-    &-item {
-      text-align: right;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+  &-item {
+    text-align: center;
+    color: $c-primary;
   }
 }
