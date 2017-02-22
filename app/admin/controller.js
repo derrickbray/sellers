@@ -15,7 +15,7 @@ export default Ember.Controller.extend({
       //   if (this.get('currentUser.user.isAdmin')) {
       //     this.transitionToRoute('admin.landing');
       //   } else {
-      //     this.transitionToRoute('index');
+      this.transitionToRoute('index');
       //   }
       // });
     }

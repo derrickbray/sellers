@@ -15,7 +15,7 @@ $c-accent: #7E8F7C;
   margin: 5rem auto;
   padding: 0.5rem;
   width: 50%;
-  background: $c-primary;
+  background: white;
 
   &__title {
     text-align: center;
@@ -26,6 +26,8 @@ $c-accent: #7E8F7C;
     padding: 0.3rem;
     width: 100%;
     margin-bottom: 1rem;
+    border: 0;
+    border-bottom: 1px solid $c-text;
     background: white;
     font-size: 1rem;
   }
@@ -38,7 +40,8 @@ $c-accent: #7E8F7C;
       padding: 0.5rem;
       border: 0;
       outline: none;
-      background: $c-accent;
+      border: 1px solid $c-text;
+      background: $c-background;
       font-size: 1rem;
       color: $c-text;
     }
